@@ -1,10 +1,10 @@
 # Laravel World
 This package will allow you to add all Countries, States, Cities Data DB Migration & Seeder for Laravel
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/altwaireb/laravel-world.svg?style=flat-square)](https://packagist.org/packages/altwaireb/laravel-world)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/altwaireb/laravel-world/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/altwaireb/laravel-world/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/altwaireb/laravel-world/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/altwaireb/laravel-world/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/altwaireb/laravel-world.svg?style=flat-square)](https://packagist.org/packages/altwaireb/laravel-world)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/sergio-d-vico-pineda/laravel-world.svg?style=flat-square)](https://packagist.org/packages/sergio-d-vico-pineda/laravel-world)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/sergio-d-vico-pineda/laravel-world/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/sergio-d-vico-pineda/laravel-world/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/sergio-d-vico-pineda/laravel-world/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/sergio-d-vico-pineda/laravel-world/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/sergio-d-vico-pineda/laravel-world.svg?style=flat-square)](https://packagist.org/packages/sergio-d-vico-pineda/laravel-world)
 
 
 ## Numbers
@@ -55,7 +55,18 @@ Common attributes:
 You can install the package via composer:
 
 ```bash
-composer require altwaireb/laravel-world
+composer require sergio-d-vico-pineda/laravel-world
+```
+
+To use my fork, add the following to your `composer.json` file:
+
+```json
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/Sergio-D-Vico-Pineda/laravel-world"
+    }
+],
 ```
 
 ## Usage
@@ -200,7 +211,7 @@ $countries = Country::active()->pluck('name','id');
 
 ## Credits
 
-- [Abdulmajeed Altwaireb](https://github.com/altwaireb)
+- [Sergio D. Vico Pineda](https://github.com/sergio-d-vico-pineda)
 - [All Contributors](../../contributors)
 
 ## License
