@@ -1,11 +1,7 @@
 # Laravel World
 This package will allow you to add all Countries, States, Cities Data DB Migration & Seeder for Laravel
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/sergio-d-vico-pineda/laravel-world.svg?style=flat-square)](https://packagist.org/packages/sergio-d-vico-pineda/laravel-world)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/sergio-d-vico-pineda/laravel-world/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/sergio-d-vico-pineda/laravel-world/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/sergio-d-vico-pineda/laravel-world/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/sergio-d-vico-pineda/laravel-world/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/sergio-d-vico-pineda/laravel-world.svg?style=flat-square)](https://packagist.org/packages/sergio-d-vico-pineda/laravel-world)
-
+NOTE: THIS IS A FORK OF ALTWAIREB/LARAVEL-WORLD, CREATED FOR USE WITH LARAVEL 12.
 
 ## Numbers
 | Model   | Number of items |
